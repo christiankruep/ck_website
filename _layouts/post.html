@@ -1,0 +1,16 @@
+---
+layout: default
+title: Blog
+---
+
+<h2>{{ page.title }}</h2>
+<h3>By {{ page.author }}</h3>
+<b>{{page.date | date_to_long_string: "ordinal", "us" }}</b>
+
+
+<p> {{ content }} <p>
+
+<div style="display: flex; flex-direction: row; margin: 5px;">
+	<a href="{{ page.previous.url }} ">prev</a>
+	<a href="{{ page.next.url }} ">next</a>
+</div>

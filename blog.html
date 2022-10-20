@@ -1,0 +1,19 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+sidebar_link: true
+---
+{% for post in site.posts limit:1 %}
+	<h2> {{ post.title }} </h2>
+	<h3> By {{ post.author }} </h3>
+	<b> {{ post.date | date_to_long_string: "ordinal", "us" }} </b>
+	<p> {{ post.content }} </p>
+	<div style="display: flex; flex-direction: row;">
+		<a href="{{ post.previous.url }}" style="margin-right: 5px">Prev</a>
+		<a href="{{ post.next.url }}">Next</a>
+	</div>
+{% endfor %}
+
+
+
