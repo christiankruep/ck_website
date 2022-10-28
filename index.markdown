@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-<img src="assets/Headshot.png" alt="Heashot" width="50%" style="float:left; margin-right:20px"/>
+<img src="assets/headshot.png" alt="Heashot" width="50%" style="float:left; margin-right:20px"/>
 
 ## Hello There!
 
