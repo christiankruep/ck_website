@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: index
 title: About Me
 ---
 
-<img src="/assets/Headshot.png" alt="Heashot" width="50%" style="float:left; margin-right:20px"/>
+<img src="assets/headshot.png" alt="Heashot" width="50%" style="float:left; margin-right:20px"/>
 
-## Hello There!
+# Hello There!
 
 I’m Christian Kruep and this is my personal website. I am originally from the San Francisco Bay area but I currenly reside in Salt Lake City, UT. In my free time I read, watch movies and depending on the season either bike or ski.
 <br>
